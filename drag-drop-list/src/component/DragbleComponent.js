@@ -6,7 +6,6 @@ const DragbaleComponent = ({ selected }) => {
   const handleDrag = () => {
     const card = document.getElementsByClassName("card");
     card[0].style.backgroundColor = "#" + randomColor();
-    console.log(card[0]);
   };
 
   switch (selected) {

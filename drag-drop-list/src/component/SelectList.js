@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ListGroup, ListGroupItem } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
 
 const SelectList = ({ setSelected }) => {
   return (
